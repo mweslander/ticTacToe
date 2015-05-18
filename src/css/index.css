@@ -1,0 +1,135 @@
+/* Meyer Reset */
+html,body,div,span,applet,object,iframe,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,dl,dt,dd,ol,ul,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,label,legend,p,blockquote,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-weight:inherit;font-style:inherit;font-size:100%;font-family:inherit;vertical-align:baseline;}body{line-height:1;color:black;background:white;}:focus{outline:0;}table{border-collapse:collapse;border-spacing:0;}caption,th,td{text-align:left;font-weight:normal;}fieldset,img{border:0;}address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal;}ol,ul{list-style:none;}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}blockquote:before,blockquote:after,q:before,q:after{content:"";}blockquote,q{quotes:"" "";}abbr,acronym{border:0;}
+
+@font-face {
+    font-family: 'sf_arch_rivalregular';
+    src: url('../fonts/sfarchrival_regular_macroman/SF_Arch_Rival-webfont.eot');
+    src: url('../fonts/sfarchrival_regular_macroman/SF_Arch_Rival-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/sfarchrival_regular_macroman/SF_Arch_Rival-webfont.woff') format('woff'),
+         url('../fonts/sfarchrival_regular_macroman/SF_Arch_Rival-webfont.ttf') format('truetype'),
+         url('../fonts/sfarchrival_regular_macroman/SF_Arch_Rival-webfont.svg#sf_arch_rivalregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background: #333333;
+    font-family: 'sf_arch_rivalregular', sans-serif;
+    font-weight: 300;
+    color: #eeeeee;
+    height: 100%;
+}
+
+h1 {
+    font-size: 2em;
+    font-family: 'sf_arch_rivalregular', sans-serif;
+    margin-bottom: 0.3em;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.2em;
+    color: #bbbbbb;
+}
+
+button {
+    font-size: 3em;
+    padding: 1em;
+    font-family: 'sf_arch_rivalregular', sans-serif;
+}
+
+button:hover {
+    background-color: #FF9900;
+}
+
+/* Wrapper */
+.wrapper {
+    min-height: 100%;
+    height: 100%;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.loading {
+    text-align: center;
+}
+
+/* Header */
+
+.header {
+    text-align: center;
+    padding: 1.6em;
+}
+.header h1 span:first-child {
+    color: #FF0800;
+}
+.header h1 span:last-child {
+    color: #FF9900;
+}
+.header h2 span {
+    color: #eeeeee;
+}
+
+/* Status */
+.status {
+    margin: 0 auto 1.6em;
+    text-align: center;
+}
+.status h3 {
+    display: inline-block;
+    width: 30%;
+}
+.choices {
+    text-align: center;
+}
+
+/* Rows and Cells */
+
+text {
+    text-anchor: middle;
+}
+
+.row {
+    text-align: center;
+    margin: -.15em;
+}
+.cell {
+    display: inline-block;
+    width: 30%;
+    height: 100%;
+    background-color: #eeeeee;
+    margin: 2px;
+    text-align: center;
+}
+
+.cell:hover {
+    background-color: #FF9900;
+}
+
+.cellText {
+    font-size: 400%;
+}
+
+/* Footer */
+.footer {
+    bottom: 0;
+    margin: 1.5em auto;
+    text-align: center;
+    width: 30%;
+    padding: 1em 0;
+    background: #bbbbbb;
+    color: #222222;
+}
+
+.footer:hover {
+    background: #FF0800;
+    color: #eeeeee;
+}
