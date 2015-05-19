@@ -2,6 +2,8 @@
 
 Unbeatable Tic, Tac, Toe made with Angular 2.0
 
+Only works in Chrome
+
 ##Installation Instructions:
 
     npm install
